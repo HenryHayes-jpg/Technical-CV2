@@ -164,6 +164,7 @@ body{
     padding: 1rem;
     color: #ddd;
     cursor: pointer;
+    border: 2px black;
 }
 
 .skill-box:hover > .skill-title:after, .skill-box:hover > .skill-title:before{

@@ -138,6 +138,11 @@ body{
       color: #ccc;
   }
 
+  .box ul{
+      list-style-position: outside;
+      list-style-type: disc;
+  }
+
   .portfolio{
       display: grid;
       grid-gap: 20px;
@@ -165,11 +170,14 @@ body{
       width: 650px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   }
+  .table tbody{
+      color: white;
+  }
 
   .table thead tr {
       border-bottom:2px solid #1c0874 ;
-      background-color: #1c0874;
-      color: #070707;
+      background-color: #3b81dd;
+      color: black;
       text-align: left;
   }
 
@@ -179,11 +187,14 @@ body{
 
   .table tbody tr{
       border-bottom: 1px solid #74a1f3;}.table tbody tr :nth-of-type(even){
-      background-color: #f3f3f3;}.table tbody tr :last-of-type{
+      background-color: #454d52;}.table tbody tr :last-of-type{
       border-bottom:2px solid #1c0874 ;
   }
 
   .table tbody tr.active-row{
       font-weight: bold;
       color: #009879;
+  }
+  .table-response h3{
+      color: white;
   }
