@@ -107,7 +107,7 @@
             let topic = searchterm
             console.log(topic)
 
-            let url = `${proxyUrl}http://newsapi.org/v2/everything?q=${topic}&from=2020-09-12&sortBy=publishedAt&apiKey=766c8c45e3ee4c0ca5d4c5a7baf13e7c`
+            let url = `http://newsapi.org/v2/everything?q=${topic}&from=2020-09-12&sortBy=publishedAt&apiKey=766c8c45e3ee4c0ca5d4c5a7baf13e7c`
 
             fetch(url).then((res)=>{
                 return res.json()
